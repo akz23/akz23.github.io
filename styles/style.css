@@ -49,7 +49,7 @@ a:-webkit-any-link {
         text-decoration: none;
     }
 .backmain {
-		background: url(C:/Users/AV/Desktop/akz23/images/mainback.jpg);
+		background: url(/images/mainback.jpg);
 		height: 100vh;
 		background-size: cover;
         background-position: center center;
@@ -224,7 +224,7 @@ button {
     text-align: center;
 }
 .worksangle {
-    background-image: url(C:/Users/AV/Desktop/akz23/images/greyangle.png);
+    background-image: url(/images/greyangle.png);
     max-width: 1903px;
     height: 149px;
 }
