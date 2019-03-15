@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&subset=cyrillic,cyrillic-ext');
+    
+    
+    
+body {
+        margin: 0;
+        font-family: 'Montserrat', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+p {
+        margin-block-start: 0;
+        margin-block-end: 0;
+        margin-inline-start: 0;
+        margin-inline-end: 0;
+}
+
+h1 {
+    color: #000;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    text-align: center;
+    margin-block-start: 0.1em;
+    margin-block-end: 0.1em;
+}
+h2 {
+    display: block;
+    font-size: 1.3em;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    margin: 0px 0px 50px 0px;
+}
+ul, menu, dir, li {
+    list-style-type: none;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+a:-webkit-any-link {
+        cursor: pointer;
+        color: #000;
+        text-decoration: none;
+    }
+.backmain {
+		background: url(C:/Users/AV/Desktop/akz23/images/mainback.jpg);
+		height: 100vh;
+		background-size: cover;
+        background-position: center center;
+        box-shadow: 0px 11px 17px rgba(9, 55, 93, 0.37);
+    }
+button {
+    border-width: 0;
+    border-style: outset;
+    border-color: none;
+    border-image: initial;
+    cursor: pointer;
+    font: 500 1.2em 'Montserrat', sans-serif;
+    background-color: transparent;
+}
+.mainnav {
+    margin: auto;
+    padding: 5px;
+    color: #fff;
+    text-transform: uppercase; 
+}
+.mainbar {
+        width: 320px;
+        background-color: #0d68b2;
+        height: 100vh;
+        float: left;
+        max-width: 320px;
+        margin-right: 80px;
+    }
+.logo {
+    height: 200px;
+    padding-top: 50px;
+    vertical-align: top; 
+}
+.upcontacts {
+        margin: 0px 20px 0px 80px;
+        padding: 50px 0px 0px 50px;
+    }
+
+.inlinebl {
+        display: inline-block;
+    }
+.blstrtxt {
+        color: #000;
+        font-weight: 700;
+        font-size: 1.5em;
+      }
+.margr {
+    margin-right: 80px;
+}
+.maintxt {
+    padding: 170px 20px 55px 0px;
+    width: 800px;
+    max-width: 800px;
+    display: inline-block;
+}
+.akzmaintxt {
+    text-transform: uppercase; 
+    font-size: 2.5em;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.specmaintxt {
+    text-transform: uppercase;
+    font-size: 1.6em;
+    padding: 80px 20px 80px 0px;
+    font-weight: 600;
+    word-spacing: 5px;
+    max-width: 600px;
+
+}
+.sugaroilmaintxt {
+    text-transform: uppercase; 
+    font-size: 1.8em;
+    margin-bottom: 35px;
+    border-bottom: 4px solid #2320c6;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding: 0;
+    background-color: transparent;
+    font-weight: 600;
+}
+.mainfoot {
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+.btnmain {
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase; 
+    font-size: 1.2em;
+    color: #fff;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: #2320c6;
+    width: 320px;
+    box-sizing: border-box;
+    font-weight: 600;
+    letter-spacing: 2px;
+    transition: all 0.3s ease-in-out;
+}
+.btnmain:hover {
+    box-shadow: 0px 6px 5px 3px #fff;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    background-color: #0019D5
+}
+.btnmainmenu {
+    background-color: #0876cf;
+    color: #fff;
+    padding: 15px 0px 15px 0px;
+    margin: 3px 0px 4px 0px;
+    text-align: center;
+}
+.btnmainmenu:hover {
+    border-bottom: 4px solid #fff;
+    margin-bottom: -3px;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    background-color: #106fd5;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.sectworks {
+    padding-top: 70px;
+}
+.redbr {
+    border-bottom: #FF4D01 solid 5px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    cursor: default;
+    margin-bottom: 60px;
+    padding-top: 30px;
+}
+
+.bluebr {
+    border-bottom: #0D67B2 solid 5px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    cursor: default;
+    margin-bottom: 60px;
+    padding-top: 30px;
+}
+.whiteviolbr {
+    color: #fff;
+    border-bottom: #2421ca solid 5px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    cursor: default;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+.worksmainblock {
+    width: 1240px;
+    max-width: 1240px;
+    margin: auto;
+}
+.margincenter {
+    margin: 0px 50px;
+}
+.worksblsm {
+    width: 33%;
+    display: inline-block;
+    line-height: 45px;
+    vertical-align: top;
+    text-align: center;
+}
+.worksangle {
+    background-image: url(C:/Users/AV/Desktop/akz23/images/greyangle.png);
+    max-width: 1903px;
+    height: 149px;
+}
+
+.sugarplants {
+    background-color: #f5f5f5;
+    padding-bottom: 80px;
+}
+.sugardescript {
+    width: 900px;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+.sugarblocks {
+    width: 48%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+}
+.sugarblocks>p {
+    margin: 30px 0px;
+}
+.sectoil {
+    padding-bottom: 80px;
+}
+.oilblock {
+    margin: auto;
+    text-align: center;
+    width: 900px;
+    max-width: 900px;
+}
+.oilblocksm {
+    width: 48%;
+    display: inline;
+}
+.oilblocksm>p {
+    margin: 30px 0px;
+}
+.ourclients {
+    background-color: #80809a;
+    padding-bottom: 80px;
+}
+.whiteviolbr>h1 {
+    color: #fff;
+}
+.footerbc {
+    background-color: #084F8A;
+}
+.footsect {
+    margin: auto;
+    width: 900px;
+    max-width: 900px;
+}
+.footbl {
+    width: 40%;
+    margin: 50px 70px 50px 0px;
+    display: inline-block;
+    vertical-align: top;
+}
+.footbl>h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+.footertxt {
+    margin-bottom: 20px;
+}
+.footbl>p {
+    color: #fff;
+    margin-bottom: 30px;
+}
+.footbl>p>a {
+    color: #fff;
+}
+
+.copyrights {
+    color: #fff;
+    font-size: 0.8em;
+    padding: 10px;
+    margin: auto;
+    text-align: right;
+}
+.clientslogosblock {
+    margin: auto;
+    padding: 50px 30px;
+    text-align: center;
+}
+.clogos {
+    margin: 20px 50px;
+    display: inline-block;
+    vertical-align: middle;
+
+}
