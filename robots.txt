@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /images/
+Disallow: /fonts/
+Disallow: /styles/
+Disallow: /js/
+
+
+User-agent: Yandex
+Disallow: /images/
+Disallow: /fonts/
+Disallow: /styles/
+Disallow: /js/
+
+Host: www.akz23.ru
+Sitemap: http://www.akz23.ru/sitemap.xml
