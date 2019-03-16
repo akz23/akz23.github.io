@@ -217,11 +217,12 @@ button {
     margin: 0px 50px;
 }
 .worksblsm {
-    width: 33%;
+    width: 29%;
     display: inline-block;
     line-height: 45px;
     vertical-align: top;
     text-align: center;
+    padding: 20px;
 }
 .worksangle {
     background-image: url(/images/greyangle.png);
@@ -240,10 +241,12 @@ button {
     text-align: center;
 }
 .sugarblocks {
-    width: 48%;
+    width: 425px;
     display: inline-block;
     vertical-align: middle;
     text-align: left;
+    padding: 10px;
+    max-width: 425px;
 }
 .sugarblocks>p {
     margin: 30px 0px;
@@ -258,11 +261,19 @@ button {
     max-width: 900px;
 }
 .oilblocksm {
-    width: 48%;
-    display: inline;
+    width: 425px;
+    padding: 10px;
+    max-width: 425px;
+    display: inline-block;
 }
 .oilblocksm>p {
     margin: 30px 0px;
+}
+.oilblockspics {
+    margin: auto;
+    text-align: center;
+    width: 900px;
+    max-width: 900px;
 }
 .ourclients {
     background-color: #80809a;
