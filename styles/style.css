@@ -336,6 +336,9 @@ button {
         width: 250px;
         max-width: 250px;
     }
+    .upcontacts {
+        padding: 30px 0px 0px 50px;
+    }
     .btnmainmenu {
         font-size: 0.85em;
     }
@@ -351,10 +354,10 @@ button {
         font-size: 2em;
     }
     .specmaintxt {
-        padding: 60px 20px 60px 0px;
+        padding: 45px 20px 45px 0px;
     }
     .sugaroilmaintxt {
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
     .btnmain {
         font-size: 1em;
