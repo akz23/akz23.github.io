@@ -321,7 +321,7 @@ button {
     vertical-align: middle;
 }
 
-@media (max-width: 1399px) {
+@media (max-width: 1440px) {
     .specmaintxt {
         font-size: 1.2em;
         max-width: 450px;
