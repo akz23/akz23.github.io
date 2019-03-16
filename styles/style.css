@@ -320,7 +320,55 @@ button {
     display: inline-block;
     vertical-align: middle;
 }
-
+@media (max-width: 1366px) {
+    .mainbar {
+        width: 250px;
+        max-width: 250px;
+    }
+    .btnmainmenu {
+        font-size: 0.85em;
+    }
+    .blstrtxt {
+        font-size: 1.1em;
+    }
+    .maintxt {
+        padding: 130px 20px 55px 0px;
+        width: 620px;
+        max-width: 620px;
+    }
+    .akzmaintxt {
+        font-size: 2em;
+    }
+    .specmaintxt {
+        padding: 60px 20px 60px 0px;
+    }
+    .sugaroilmaintxt {
+        font-size: 1.5em;
+    }
+    .btnmain {
+        font-size: 1em;
+        width: 250px;
+        font-weight: 500;
+    }
+    .sectworks {
+        padding-top: 30px;
+    }
+    h1 {
+        font-size: 1.1em;
+    }
+    .ourclients {
+        padding-bottom: 60px;
+    }
+    .whiteviolbr {
+        padding-top: 50px;
+    }
+    .clientslogosblock {
+        padding: 30px 30px;
+    }
+    .footbl>h2 {
+        font-size: 1em;
+    }
+}
 @media (max-width: 1600px) {
     .specmaintxt {
         font-size: 1.2em;
