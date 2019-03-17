@@ -360,7 +360,11 @@ button {
         font-weight: 500;
     }
 }
-
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+    .mainbar {
+        display: none;
+    }
+}
 @media (max-width: 1152px) {
     .worksmainblock {
         max-width: 1135px;
