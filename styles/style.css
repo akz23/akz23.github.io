@@ -336,6 +336,9 @@ button {
         width: 1135px;
         max-width: 1135px;
     }
+    .specmaintxt {
+        padding: 60px 20px 80px 0px;
+    }
 }
 
 @media (max-width: 1366px) {
