@@ -331,6 +331,13 @@ button {
     display: inline-block;
     vertical-align: middle;
 }
+@media (max-width: 1152px) {
+    .worksmainblock {
+        width: 1135px;
+        max-width: 1135px;
+    }
+}
+
 @media (max-width: 1366px) {
     .mainbar {
         width: 250px;
