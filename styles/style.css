@@ -71,7 +71,6 @@ button {
     text-transform: uppercase; 
 }
 .mainbar {
-        width: 320px;
         background-color: #0d68b2;
         height: 100vh;
         float: left;
@@ -101,7 +100,6 @@ button {
 }
 .maintxt {
     padding: 170px 20px 55px 0px;
-    width: 800px;
     max-width: 800px;
     display: inline-block;
 }
@@ -234,7 +232,6 @@ button {
     padding-bottom: 80px;
 }
 .sugardescript {
-    width: 900px;
     max-width: 900px;
     margin: auto;
     text-align: center;
@@ -256,11 +253,9 @@ button {
 .oilblock {
     margin: auto;
     text-align: center;
-    width: 900px;
     max-width: 900px;
 }
 .oilblocksm {
-    width: 425px;
     padding: 10px;
     max-width: 425px;
     display: inline-block;
@@ -271,7 +266,6 @@ button {
 .oilblockspics {
     margin: auto;
     text-align: center;
-    width: 900px;
     max-width: 900px;
 }
 .ourclients {
@@ -286,7 +280,6 @@ button {
 }
 .footsect {
     margin: auto;
-    width: 900px;
     max-width: 900px;
 }
 .footbl {
@@ -360,7 +353,7 @@ button {
         font-weight: 500;
     }
 }
-@media screen and (max-width: 1024px) and (orientation: landscape) {
+@media screen and (orientation: landscape) {
     .mainbar {
         display: none;
     }
