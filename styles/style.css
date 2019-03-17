@@ -358,6 +358,28 @@ button {
     .mainbar {
         display: none;
     }
+    .backmain {
+        height: 100%;
+    }
+    .maintxt {
+        padding: 100px 20px 55px 50px;
+        max-width: 620px;
+    }
+    .akzmaintxt {
+        font-size: 1.5em;
+    }
+    .specmaintxt {
+        font-size: 0.85em;
+        padding: 35px 20px 35px 0px;
+    }
+    .sugaroilmaintxt {
+        font-size: 0.9em;
+        margin-bottom: 15px;
+        display: block;
+    }
+    .sugaroilmaintxt {
+        border-bottom: 2px solid #2320c6;
+    }
 }
 @media (max-width: 1152px) {
     .worksmainblock {
@@ -384,7 +406,6 @@ button {
     }
     .maintxt {
         padding: 100px 20px 55px 0px;
-        width: 620px;
         max-width: 620px;
     }
     .akzmaintxt {
