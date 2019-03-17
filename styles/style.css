@@ -76,6 +76,7 @@ button {
         float: left;
         max-width: 320px;
         margin-right: 80px;
+        width: 320px;
     }
 .logo {
     height: 200px;
