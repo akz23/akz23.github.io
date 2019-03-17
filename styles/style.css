@@ -209,7 +209,6 @@ button {
     padding-top: 30px;
 }
 .worksmainblock {
-    width: 1240px;
     max-width: 1240px;
     margin: auto;
 }
@@ -339,7 +338,6 @@ button {
         font-size: 1.5em;
     }
     .worksmainblock {
-        width: 760px;
         max-width: 760px;
     }
     .mainbar {
@@ -365,7 +363,6 @@ button {
 
 @media (max-width: 1152px) {
     .worksmainblock {
-        width: 1135px;
         max-width: 1135px;
     }
     .specmaintxt {
