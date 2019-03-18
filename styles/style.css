@@ -404,6 +404,9 @@ button {
     .worksmainblock {
         max-width: 1135px;
     }
+    .worksinfo {
+        top: 20px;
+    }
     .mainbar {
         max-width: 220px;
         margin-right: 40px;
@@ -430,9 +433,6 @@ button {
     }
     .margr {
         margin-right: 50px;
-    }
-    .worksinfo {
-        top: 20px;
     }
 }
 
