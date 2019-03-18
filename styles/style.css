@@ -400,41 +400,7 @@ button {
     }
 }
 
-@media (max-width: 1152px) {
-    .worksmainblock {
-        max-width: 1135px;
-    }
-    .worksinfo {
-        top: 20px;
-    }
-    .mainbar {
-        max-width: 220px;
-        margin-right: 40px;
-    }
-    .logo>a {
-        font-size: 0.85em;
-    }
-    .maintxt {
-        top: 130px;
-    }
-    .specmaintxt {
-        font-size: 1em;
-    }
-    .akzmaintxt {
-        font-size: 1.7em;    
-    }
-    .sugaroilmaintxt {
-        font-size: 1.1em;
-        margin-bottom: 15px;
-    }
-    .btnmain {
-        font-size: 0.85em;
-        width: 200px;  
-    }
-    .margr {
-        margin-right: 50px;
-    }
-}
+
 
 @media (max-width: 1366px) {
     .mainbar {
@@ -495,6 +461,42 @@ button {
     .worksinfo {
         top: 50px;
         text-align: center;
+    }
+}
+
+@media (max-width: 1152px) {
+    .worksmainblock {
+        max-width: 1135px;
+    }
+    .worksinfo {
+        top: 20px;
+    }
+    .mainbar {
+        max-width: 220px;
+        margin-right: 40px;
+    }
+    .logo>a {
+        font-size: 0.85em;
+    }
+    .maintxt {
+        top: 130px;
+    }
+    .specmaintxt {
+        font-size: 1em;
+    }
+    .akzmaintxt {
+        font-size: 1.7em;    
+    }
+    .sugaroilmaintxt {
+        font-size: 1.1em;
+        margin-bottom: 15px;
+    }
+    .btnmain {
+        font-size: 0.85em;
+        width: 200px;  
+    }
+    .margr {
+        margin-right: 50px;
     }
 }
 @media (max-width: 1600px) {
