@@ -81,7 +81,7 @@ button {
         width: 320px;
     }
 .logo {
-    padding-top: 30px;
+    padding-top: 50px;
     vertical-align: top;
     text-align: center;
     margin: auto;
@@ -400,8 +400,32 @@ button {
     .worksmainblock {
         max-width: 1135px;
     }
+    .mainbar {
+        max-width: 220px;
+        margin-right: 40px;
+    }
+    .logo>a {
+        font-size: 1.1em;
+    }
+    .maintxt {
+        top: 130px;
+    }
     .specmaintxt {
-        padding: 60px 20px 80px 0px;
+        font-size: 1em;
+    }
+    .akzmaintxt {
+        font-size: 1.7em;    
+    }
+    .sugaroilmaintxt {
+        font-size: 1.1em;
+        margin-bottom: 15px;
+    }
+    .btnmain {
+        font-size: 0.85em;
+        width: 200px;  
+    }
+    .margr {
+        margin-right: 50px;
     }
 }
 
