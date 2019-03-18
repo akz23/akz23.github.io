@@ -340,7 +340,8 @@ button {
     vertical-align: middle;
 }
 
-div>.worksblsm>
+
+
 @media (max-width: 1024px) {
     .maintxt {
         padding: 0px 20px 55px 0px;
@@ -408,7 +409,7 @@ div>.worksblsm>
         margin-right: 40px;
     }
     .logo>a {
-        font-size: 1.1em;
+        font-size: 0.85em;
     }
     .maintxt {
         top: 130px;
@@ -429,6 +430,9 @@ div>.worksblsm>
     }
     .margr {
         margin-right: 50px;
+    }
+    .worksinfo {
+        top: 20px;
     }
 }
 
