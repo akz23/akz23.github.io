@@ -83,6 +83,9 @@ button {
     vertical-align: top;
     text-align: center;
     margin: auto;
+    font-weight: 700;
+    font-size: 1.3em;
+    color: #fff;
 }
 .upcontacts {
         margin: 0px 20px 0px 80px;
