@@ -339,6 +339,8 @@ button {
     display: inline-block;
     vertical-align: middle;
 }
+
+div>.worksblsm>
 @media (max-width: 1024px) {
     .maintxt {
         padding: 0px 20px 55px 0px;
