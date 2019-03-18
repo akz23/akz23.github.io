@@ -461,6 +461,10 @@ button {
     .footbl>h2 {
         font-size: 1em;
     }
+    .worksinfo {
+        top: 50px;
+        text-align: center;
+    }
 }
 @media (max-width: 1600px) {
     .specmaintxt {
