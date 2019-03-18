@@ -237,7 +237,12 @@ button {
     background-image: url(/images/greyangle.png);
     height: 149px;
 }
-
+.worksinfo {
+    position: relative;
+    top: 80px;
+    margin: auto;
+    text-align: right;
+}
 .sugarplants {
     background-color: #f5f5f5;
     padding-bottom: 80px;
@@ -336,7 +341,7 @@ button {
 }
 @media (max-width: 1024px) {
     .maintxt {
-        padding: 100px 20px 20px 0px;
+        padding: 0px 20px 55px 0px;
     }
     .akzmaintxt {
         font-size: 1.5em;
@@ -372,7 +377,7 @@ button {
         height: 100%;
     }
     .maintxt {
-        padding: 100px 20px 55px 50px;
+        padding: 0px 20px 55px 0px;
         max-width: 620px;
     }
     .akzmaintxt {
@@ -415,7 +420,7 @@ button {
         font-size: 1.1em;
     }
     .maintxt {
-        padding: 100px 20px 55px 0px;
+        padding: 0px 20px 55px 0px;
         max-width: 620px;
     }
     .akzmaintxt {
