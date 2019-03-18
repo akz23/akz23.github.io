@@ -81,7 +81,7 @@ button {
         width: 320px;
     }
 .logo {
-    padding-top: 50px;
+    padding-top: 30px;
     vertical-align: top;
     text-align: center;
     margin: auto;
@@ -407,8 +407,11 @@ button {
 
 @media (max-width: 1366px) {
     .mainbar {
-        width: 250px;
         max-width: 250px;
+        margin-right: 50px;
+    }
+    .logo {
+        padding-top: 30px;
     }
     .upcontacts {
         padding: 30px 0px 0px 50px;
@@ -422,15 +425,18 @@ button {
     .maintxt {
         padding: 0px 20px 55px 0px;
         max-width: 620px;
+        top: 170px;
     }
     .akzmaintxt {
         font-size: 2em;
+        margin-bottom: 60px;
     }
     .specmaintxt {
-        padding: 45px 20px 45px 0px;
+        margin-bottom: 60px;
     }
     .sugaroilmaintxt {
         font-size: 1.3em;
+        margin-bottom: 25px;
     }
     .btnmain {
         font-size: 1em;
