@@ -79,9 +79,10 @@ button {
         width: 320px;
     }
 .logo {
-    height: 200px;
     padding-top: 50px;
-    vertical-align: top; 
+    vertical-align: top;
+    text-align: center;
+    margin: auto;
 }
 .upcontacts {
         margin: 0px 20px 0px 80px;
@@ -224,7 +225,6 @@ button {
 }
 .worksangle {
     background-image: url(/images/greyangle.png);
-    max-width: 1903px;
     height: 149px;
 }
 
