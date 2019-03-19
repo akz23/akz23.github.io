@@ -453,6 +453,7 @@ button {
     }
     .akzmaintxt {
         font-size: 1.5em;
+        margin-bottom: 40px;
     }
     .worksmainblock {
         max-width: 760px;
@@ -470,6 +471,7 @@ button {
     }
     .specmaintxt {
         font-size: 1em;
+        margin-bottom: 40px;
     }
     .sugaroilmaintxt {
         font-size: 1.1em;
@@ -484,6 +486,14 @@ button {
     }
     .logo>a {
         font-size: 0.85em;
+    }
+    .worksblsm {
+        width: 27%; 
+    }
+    .margincenter {
+        margin: 0;
+        line-height: 35px;
+        font-size: 0.8em;
     }
 }
 @media screen and (max-width: 1024px) and (orientation: portrait) {
