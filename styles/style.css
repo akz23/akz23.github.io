@@ -241,7 +241,7 @@ button {
     position: relative;
     top: 80px;
     margin: auto;
-    text-align: center;
+    text-align: right;
 }
 .sugarplants {
     background-color: #f5f5f5;
@@ -340,7 +340,108 @@ button {
     vertical-align: middle;
 }
 
+@media (max-width: 1600px) {
+    .specmaintxt {
+        font-size: 1.2em;
+        max-width: 450px;
+        line-height: 1.6em;
+    }
+}
 
+@media (max-width: 1366px) {
+    .mainbar {
+        max-width: 250px;
+        margin-right: 50px;
+    }
+    .logo {
+        padding-top: 30px;
+    }
+    .upcontacts {
+        padding: 30px 0px 0px 50px;
+    }
+    .btnmainmenu {
+        font-size: 0.85em;
+    }
+    .blstrtxt {
+        font-size: 1.1em;
+    }
+    .maintxt {
+        padding: 0px 20px 55px 0px;
+        max-width: 620px;
+        top: 170px;
+    }
+    .akzmaintxt {
+        font-size: 2em;
+        margin-bottom: 60px;
+    }
+    .specmaintxt {
+        margin-bottom: 60px;
+    }
+    .sugaroilmaintxt {
+        font-size: 1.3em;
+        margin-bottom: 25px;
+    }
+    .btnmain {
+        font-size: 1em;
+        width: 250px;
+        font-weight: 500;
+    }
+    .sectworks {
+        padding-top: 30px;
+    }
+    h1 {
+        font-size: 1.1em;
+    }
+    .ourclients {
+        padding-bottom: 60px;
+    }
+    .whiteviolbr {
+        padding-top: 50px;
+    }
+    .clientslogosblock {
+        padding: 30px 30px;
+    }
+    .footbl>h2 {
+        font-size: 1em;
+    }
+    .worksinfo {
+        top: 50px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1152px) {
+    .worksmainblock {
+        max-width: 1135px;
+    }
+    .mainbar {
+        max-width: 220px;
+        margin-right: 40px;
+    }
+    .logo>a {
+        font-size: 1.1em;
+    }
+    .maintxt {
+        top: 130px;
+    }
+    .specmaintxt {
+        font-size: 1em;
+    }
+    .akzmaintxt {
+        font-size: 1.7em;    
+    }
+    .sugaroilmaintxt {
+        font-size: 1.1em;
+        margin-bottom: 15px;
+    }
+    .btnmain {
+        font-size: 0.85em;
+        width: 200px;  
+    }
+    .margr {
+        margin-right: 50px;
+    }
+}
 
 @media (max-width: 1024px) {
     .maintxt {
@@ -348,10 +449,6 @@ button {
     }
     .akzmaintxt {
         font-size: 1.5em;
-        margin-bottom: 60px;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        font-weight: 700;
     }
     .worksmainblock {
         max-width: 760px;
@@ -404,106 +501,3 @@ button {
     }
 }
 
-
-
-@media (max-width: 1366px) {
-    .mainbar {
-        max-width: 250px;
-        margin-right: 50px;
-    }
-    .logo {
-        padding-top: 30px;
-    }
-    .upcontacts {
-        padding: 30px 0px 0px 50px;
-    }
-    .btnmainmenu {
-        font-size: 0.85em;
-    }
-    .blstrtxt {
-        font-size: 1.1em;
-    }
-    .maintxt {
-        padding: 0px 20px 55px 0px;
-        max-width: 620px;
-        top: 100px;
-    }
-    .akzmaintxt {
-        font-size: 2em;
-        margin-bottom: 60px;
-    }
-    .specmaintxt {
-        margin-bottom: 60px;
-    }
-    .sugaroilmaintxt {
-        font-size: 1.3em;
-        margin-bottom: 25px;
-    }
-    .btnmain {
-        font-size: 1em;
-        width: 250px;
-        font-weight: 500;
-    }
-    .sectworks {
-        padding-top: 30px;
-    }
-    h1 {
-        font-size: 1.1em;
-    }
-    .ourclients {
-        padding-bottom: 60px;
-    }
-    .whiteviolbr {
-        padding-top: 50px;
-    }
-    .clientslogosblock {
-        padding: 30px 30px;
-    }
-    .footbl>h2 {
-        font-size: 1em;
-    }
-    .worksinfo {
-        top: 50px;
-        text-align: center;
-    }
-}
-
-@media (max-width: 1152px) {
-    .worksmainblock {
-        max-width: 1135px;
-    }
-    .worksinfo {
-        top: 20px;
-    }
-    .mainbar {
-        max-width: 220px;
-        margin-right: 40px;
-    }
-    .logo>a {
-        font-size: 0.85em;
-    }
-    .specmaintxt {
-        font-size: 1em;
-    }
-    .akzmaintxt {
-        font-size: 1.7em;    
-    }
-    .sugaroilmaintxt {
-        font-size: 1.1em;
-        margin-bottom: 15px;
-    }
-    .btnmain {
-        font-size: 0.85em;
-        width: 200px;  
-    }
-    .margr {
-        margin-right: 50px;
-    }
-}
-@media (max-width: 1600px) {
-    .specmaintxt {
-        font-size: 1.2em;
-        max-width: 450px;
-        line-height: 1.6em;
-    }
-}
