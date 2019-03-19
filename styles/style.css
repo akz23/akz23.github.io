@@ -299,8 +299,7 @@ button {
     max-width: 900px;
 }
 .footbl {
-    width: 40%;
-    margin: 50px 70px 50px 0px;
+    margin: 50px 100px 50px 0px;
     display: inline-block;
     vertical-align: top;
 }
@@ -410,6 +409,11 @@ button {
     }
 }
 
+@media (max-width: 1280px) {
+    .maintxt {
+        top: 130px;
+    }
+}
 @media (max-width: 1152px) {
     .worksmainblock {
         max-width: 1135px;
@@ -422,7 +426,7 @@ button {
         font-size: 1.1em;
     }
     .maintxt {
-        top: 130px;
+        top: 120px;
     }
     .specmaintxt {
         font-size: 1em;
@@ -474,6 +478,12 @@ button {
         font-size: 0.8em;
         width: 200px;
         font-weight: 500;
+    }
+    .logo {
+        padding-top: 27px;
+    }
+    .logo>a {
+        font-size: 0.85em;
     }
 }
 @media screen and (max-width: 1024px) and (orientation: portrait) {
