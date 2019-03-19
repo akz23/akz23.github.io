@@ -423,7 +423,7 @@ button {
         margin-right: 40px;
     }
     .logo>a {
-        font-size: 1.1em;
+        font-size: 0.85em;
     }
     .maintxt {
         top: 120px;
@@ -523,4 +523,3 @@ button {
         border-bottom: 2px solid #2320c6;
     }
 }
-
