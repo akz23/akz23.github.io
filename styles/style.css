@@ -312,13 +312,13 @@ button {
 }
 .footerbc {
     background-color: #084F8A;
+    max-width: 1920px;
+    min-width: 960px;
+    margin: 0 auto;
 }
 .footsect {
     margin: auto;
     max-width: 900px;
-    max-width: 1920px;
-    min-width: 960px;
-    margin: 0 auto;
 }
 .footbl {
     margin: 50px 100px 50px 0px;
