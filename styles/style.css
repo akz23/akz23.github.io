@@ -49,11 +49,14 @@ a:-webkit-any-link {
         text-decoration: none;
     }
 .backmain {
-		background: url(/images/mainback.jpg);
-		height: 100vh;
-		background-size: cover;
-        background-position: center center;
-        box-shadow: 0px 11px 17px rgba(9, 55, 93, 0.37);
+    background: url(/images/mainback.jpg);
+    box-shadow: 0px 11px 17px rgba(9, 55, 93, 0.37);
+    background-repeat: no-repeat;
+    margin: auto;
+    max-width: 1920px;
+    min-width: 960px;
+    height: 955px;
+    position: relative
     }
 button {
     border-width: 0;
@@ -74,7 +77,7 @@ button {
 }
 .mainbar {
         background-color: #0d68b2;
-        height: 100vh;
+        height: 955px;
         float: left;
         max-width: 320px;
         margin-right: 80px;
@@ -188,6 +191,9 @@ button {
 }
 .sectworks {
     padding-top: 70px;
+    max-width: 1920px;
+    min-width: 960px;
+    margin: 0 auto;
 }
 .redbr {
     border-bottom: #FF4D01 solid 5px;
@@ -236,6 +242,10 @@ button {
 .worksangle {
     background-image: url(/images/greyangle.png);
     height: 149px;
+    background-repeat: no-repeat;
+    margin: auto;
+    max-width: 1920px;
+    min-width: 960px;
 }
 .worksinfo {
     position: relative;
@@ -246,6 +256,9 @@ button {
 .sugarplants {
     background-color: #f5f5f5;
     padding-bottom: 80px;
+    max-width: 1920px;
+    min-width: 960px;
+    margin: 0 auto;
 }
 .sugardescript {
     max-width: 900px;
@@ -265,6 +278,9 @@ button {
 }
 .sectoil {
     padding-bottom: 80px;
+    max-width: 1920px;
+    min-width: 960px;
+    margin: 0 auto;
 }
 .oilblock {
     margin: auto;
@@ -287,6 +303,9 @@ button {
 .ourclients {
     background-color: #80809a;
     padding-bottom: 80px;
+    max-width: 1920px;
+    min-width: 960px;
+    margin: 0 auto;
 }
 .whiteviolbr>h1 {
     color: #fff;
@@ -297,6 +316,9 @@ button {
 .footsect {
     margin: auto;
     max-width: 900px;
+    max-width: 1920px;
+    min-width: 960px;
+    margin: 0 auto;
 }
 .footbl {
     margin: 50px 100px 50px 0px;
