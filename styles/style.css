@@ -348,6 +348,10 @@ button {
     }
     .akzmaintxt {
         font-size: 1.5em;
+        margin-bottom: 60px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 700;
     }
     .worksmainblock {
         max-width: 760px;
