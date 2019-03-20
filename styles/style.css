@@ -318,12 +318,13 @@ button {
 }
 .footsect {
     margin: auto;
-    max-width: 900px;
+    width: 900px;
 }
 .footbl {
     margin: 50px 100px 50px 0px;
     display: inline-block;
     vertical-align: top;
+    max-width: 350px;
 }
 .footbl>h2 {
     color: #fff;
