@@ -56,7 +56,8 @@ a:-webkit-any-link {
     max-width: 1920px;
     min-width: 960px;
     height: 955px;
-    position: relative
+    background-size: cover;
+    background-position: center; 
     }
 button {
     border-width: 0;
@@ -249,9 +250,9 @@ button {
 }
 .worksinfo {
     position: relative;
-    top: 80px;
+    top: 60px;
     margin: auto;
-    text-align: right;
+    text-align: center;
 }
 .sugarplants {
     background-color: #f5f5f5;
@@ -321,7 +322,7 @@ button {
     width: 900px;
 }
 .footbl {
-    margin: 50px 100px 50px 0px;
+    margin: 50px;
     display: inline-block;
     vertical-align: top;
     max-width: 320px;
@@ -390,7 +391,7 @@ button {
     .backmain {
     background-repeat: no-repeat;
     margin: auto;
-    max-width: 1376px;
+    max-width: 1366px;
     height: 635px;
     background-size: cover;
     }
@@ -450,7 +451,7 @@ button {
 
 @media (max-width: 1280px) {
     .maintxt {
-        top: 130px;
+        top: 100px;
     }
 }
 @media (max-width: 1152px) {
@@ -577,6 +578,7 @@ button {
     .maintxt {
         top: 70px;
         display: block;
+        max-width: 640px;
     }
     .akzmaintxt {
     font-size: 1.3em;
@@ -585,18 +587,34 @@ button {
     .specmaintxt {
         font-size: 0.7em;
         margin-bottom: 40px;
+        max-width: 600px;
     }
     .sugaroilmaintxt {
         font-size: 0.85em;
     }
     .worksinfo {
-        top: 16px;
+        top: 40px;
         text-align: center;
     }
     .btnmain {
         font-size: 0.7em;
         width: 200px;
         font-weight: 500;
+        padding: 10px;
+    }
+    .backmain {
+        height: 500px;
+    }
+    .mainbar {
+        width: 170px;
+        max-width: 170px;
+        height: 500px;
+    }
+    .mainnav {
+        top: 40px;
+    }
+    .btnmainmenu {
+        font-size: 0.65em;
         padding: 10px;
     }
 
