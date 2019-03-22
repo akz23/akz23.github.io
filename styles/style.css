@@ -364,8 +364,7 @@ button {
     vertical-align: middle;
 }
 .upbar {
-    padding: 20px;
-    height: 60px;
+    max-height: 80px;
     width: 100%;
     display: none;
     background-color: #0d68b2;
@@ -631,7 +630,10 @@ button {
     }
     .blstrtxt {
         font-weight: 600;
-        font-size: 0.9em;
+        vertical-align: middle;
+        padding: 20px;
+        font-size: 1.5em;
+        color: #fff;
     }
     .maintxt {
         margin: auto;
