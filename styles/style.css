@@ -631,7 +631,7 @@ button {
     .blstrtxt {
         font-weight: 600;
         vertical-align: middle;
-        padding: 20px;
+        padding: 20px 50px;
         font-size: 1.5em;
         color: #fff;
     }
