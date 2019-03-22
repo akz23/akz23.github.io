@@ -364,7 +364,7 @@ button {
     vertical-align: middle;
 }
 .upbar {
-    max-height: 80px;
+    max-height: 100px;
     width: 100%;
     display: none;
     background-color: #0d68b2;
@@ -752,7 +752,7 @@ button {
     font-size: 1.8em;
     }
     .upbar {
-    display: block;
+    display: fixed;
    }
 
 }
