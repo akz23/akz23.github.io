@@ -754,6 +754,7 @@ button {
     .upbar {
     display: block;
     position: fixed;
+    z-index: 11;
    }
 
 }
