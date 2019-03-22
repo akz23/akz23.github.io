@@ -656,6 +656,7 @@ button {
     }
     .mainbar {
         visibility: collapse;
+        display: none;
     }
     .mainnav {
         top: 40px;
@@ -674,8 +675,8 @@ button {
         box-sizing: border-box;
     }
     .margincenter {
-        font-size: 1.8em;
-        line-height: 1.8em;
+        font-size: 2.3em;
+        line-height: 2.3em;
     }
     .sectworks {
         padding-top: 100px;
@@ -685,10 +686,12 @@ button {
         text-align: center;
         padding: 10px;
         margin: auto;
+        width: 90%;
+        max-width: 90%;
     }
     .sugarblocks>p {
-        font-size: 1.8em;
-        line-height: 1.8em;
+        font-size: 2.3em;
+        line-height: 2.3em;
     }
     .bluebr {
         padding-top: 60px;
@@ -699,11 +702,47 @@ button {
     .oilblocksm {
         padding: 10px;
         width: 100%;
-        display: inline-block;
+        display: block;
         box-sizing: border-box;
+        max-width: 100%;
     }
     .oilblocksm>p {
-        font-size: 1.8em;
-        line-height: 1.8em;
+        font-size: 2.3em;
+        line-height: 2.3em;
+    }
+    .sugaroilmaintxt {
+    border-bottom: 4px solid #2320c6; 
+    }
+    .upcontacts {
+    display: none;
+    }
+    .footerbc {
+    max-width: 960px;
+    padding: 50px 20px 0px 20px;
+    min-width: 100%;
+    }
+    .footerbc {
+    max-width: 960px;
+    min-width: 320px;
+    }
+    .footsect {
+    margin: auto;
+    max-width: 600px;
+    }
+    .footbl {
+    margin-bottom: 70px;
+    }
+    .footbl>h2 {
+    font-size: 2em;
+    margin-bottom: 50px;
+    }
+    .footbl>p {
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 1.8em;
+    }
+    h3 {
+    color: #fff;
+    font-size: 2em;
     }
 }
