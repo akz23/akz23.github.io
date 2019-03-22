@@ -363,6 +363,14 @@ button {
     display: inline-block;
     vertical-align: middle;
 }
+.upbar {
+    padding: 20px;
+    height: 60px;
+    width: 100%;
+    display: none;
+    background-color: #0d68b2;
+    color: #fff;
+   }
 
 @media (max-width: 1600px) {
     .specmaintxt {
@@ -741,5 +749,8 @@ button {
     margin-bottom: 50px;
     font-size: 1.8em;
     }
+    .upbar {
+    display: block;
+   }
 
 }
