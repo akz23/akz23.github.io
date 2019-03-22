@@ -666,8 +666,11 @@ button {
         display: none;
     }
     .backmain {
-        height: 960px;
         box-shadow: none;
+        background: url(/images/mainbackmob.jpg);
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        height: 960px;
     }
     .mainbar {
         visibility: collapse;
