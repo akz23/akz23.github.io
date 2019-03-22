@@ -611,7 +611,7 @@ button {
     }
 }
 
-@media screen (max-width: 960px) and (orientation: portrait) {
+@media screen and (max-width: 960px) and (orientation: portrait) {
     .logo > a {
         font-size: 0.65em;
     }
@@ -761,7 +761,7 @@ button {
     z-index: 11;
    }
 }
-@media screen (max-width: 432) and (orientation: portrait) {
+@media screen and (max-width: 414px) and (orientation: portrait) {
         .logo > a {
         font-size: 0.5em;
     }
