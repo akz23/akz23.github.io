@@ -614,6 +614,10 @@ button {
     h2 {
         font-size: 2em;
     }
+    h3 {
+        color: #fff;
+        font-size: 2em;
+    }
     .margr {
         margin-right: 25px;  
     }
@@ -721,16 +725,13 @@ button {
     padding: 50px 20px 0px 20px;
     min-width: 100%;
     }
-    .footerbc {
-    max-width: 960px;
-    min-width: 320px;
-    }
     .footsect {
     margin: auto;
     max-width: 600px;
     }
     .footbl {
     margin-bottom: 70px;
+    max-width: 100%;
     }
     .footbl>h2 {
     font-size: 2em;
@@ -741,8 +742,5 @@ button {
     margin-bottom: 50px;
     font-size: 1.8em;
     }
-    h3 {
-    color: #fff;
-    font-size: 2em;
-    }
+
 }
