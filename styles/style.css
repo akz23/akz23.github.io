@@ -795,6 +795,7 @@ button {
         background-position: bottom right;
         max-width: 414px;
         width: 100%;
+        min-width: 320px;
     }
     .maintxt {
         margin: auto;
