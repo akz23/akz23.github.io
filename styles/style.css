@@ -846,6 +846,12 @@ button {
         color: #fff;
         margin: 0;
     }
+    .blstrtxtmob {
+        font-size: 1em;
+    }
+    .upcontactsmob {
+        top: 50px;
+    }
     .backmain {
         box-shadow: none;
         background: url(/images/mainbackmob.jpg);
