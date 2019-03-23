@@ -296,6 +296,9 @@ button {
 .oilblocksm>p {
     margin: 30px 0px;
 }
+.oilblocksm>img {
+    width: 100%
+}
 .oilblockspics {
     margin: auto;
     text-align: center;
