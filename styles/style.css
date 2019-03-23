@@ -632,6 +632,8 @@ button {
         padding: 0;
         margin: auto;
         text-align: center;
+        position: relative;
+        top: 50px;
     }
     .blstrtxtmob {
         font-weight: 600;
@@ -824,7 +826,7 @@ button {
         font-weight: 600;
         vertical-align: middle;
         padding: 20px;
-        font-size: 1.2em;
+        font-size: 0.8em;
         color: #fff;
         margin: 0;
     }
@@ -854,8 +856,9 @@ button {
     }
     .specmaintxt {
         font-size: 1em;
-        margin-bottom: 50px;
+        margin-bottom: 40px;
         max-width: 414px;
+        font-weight: 500;
     }
     .sugaroilmaintxt {
         font-size: 1.1em;
