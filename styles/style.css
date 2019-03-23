@@ -742,11 +742,12 @@ button {
     }
     .footsect {
     margin: auto;
-    max-width: 600px;
+    width: 100%;
     }
     .footbl {
-    margin-bottom: 70px;
     max-width: 100%;
+    margin: 0px 0px 50px 0px;
+    padding: 20px;
     }
     .footbl>h2 {
     font-size: 2em;
@@ -754,21 +755,24 @@ button {
     }
     .footbl>p {
     color: #fff;
-    margin-bottom: 50px;
-    font-size: 1.8em;
+    margin-bottom: 30px;
+    font-size: 1.3em;
     }
     .upbar {
     display: block;
     position: fixed;
     z-index: 11;
    }
+   .clogos {
+    margin: 30px 0px;
+    }
 }
 @media screen and (max-width: 414px) and (orientation: portrait) {
         .logo > a {
         font-size: 0.5em;
     }
     h1 {
-        font-size: 1.7em;
+        font-size: 1.5em;
     }
     h2 {
         font-size: 1.5em;
@@ -875,6 +879,19 @@ button {
         max-width: 414px;
         min-width: 320px;
         margin: 0 auto;
+    }
+    .margincenter {
+        font-size: 1.3em;
+        line-height: 2em;
+        text-align: left;
+    }
+    .sugarblocks>p {
+        font-size: 1.3em;
+        line-height: 2em;
+    }
+    .oilblocksm>p {
+        font-size: 1.3em;
+        line-height: 2em;
     }
     /* .footsect {
         margin: auto;
