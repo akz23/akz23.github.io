@@ -671,6 +671,8 @@ button {
         background-repeat: no-repeat;
         background-position: bottom right;
         height: 960px;
+        max-width: 960px;
+        width: 960px;
     }
     .mainbar {
         visibility: collapse;
@@ -785,6 +787,14 @@ button {
         font-size: 2em;
         color: #fff;
         margin: 0;
+    }
+    .backmain {
+        box-shadow: none;
+        background: url(/images/mainbackmob.jpg);
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        max-width: 414px;
+        width: 100%;
     }
     .maintxt {
         margin: auto;
