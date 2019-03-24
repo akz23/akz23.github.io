@@ -836,11 +836,23 @@ button {
         padding: 2px;
         text-align: center;
     }
+    .footsect {
+        margin: auto;
+        width: 100%;
+        max-width: 414px;
+        min-width: 320px;
+    
+    }
     .footbl {
         max-width: 414px;
         margin: 0px 0px 50px 0px;
         padding: 20px;
         min-width: 320px;
+    }
+    .footbl > p {
+        color: #fff;
+        margin-bottom: 30px;
+        font-size: 1em; 
     }
     .footbl > h2 {
         font-size: 1.5em;
