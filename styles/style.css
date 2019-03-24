@@ -833,8 +833,18 @@ button {
         font-size: 2em;
     }
     .clogos {
-        margin: 30px 0px;
+        padding: 2px;
+        text-align: center;
+    }
+    .footbl {
+        max-width: 414px;
+        margin: 0px 0px 50px 0px;
         padding: 20px;
+        min-width: 320px;
+    }
+    .footbl > h2 {
+        font-size: 1.5em;
+        margin-bottom: 50px;
     }
 }
 
