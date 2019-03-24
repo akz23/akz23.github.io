@@ -482,7 +482,7 @@ button {
     }
     .worksangle {
         max-width: 1366px;
-        min-width: 960px;
+        min-width: 768px;
     }
     .sugarplants {
         max-width: 1366px;
@@ -787,6 +787,7 @@ button {
     .footerbc {
     max-width: 960px;
     padding: 0;
+    min-width: 768px;
     }
     .footsect {
     margin: auto;
