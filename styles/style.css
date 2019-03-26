@@ -366,6 +366,10 @@ button {
     display: inline-block;
     vertical-align: middle;
 }
+.clogos>p {
+    color: #fff;
+    
+}
 .upbar {
     max-height: 100px;
     width: 100%;
