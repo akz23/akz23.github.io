@@ -365,10 +365,12 @@ button {
     margin: 20px 50px;
     display: inline-block;
     vertical-align: middle;
+    max-width: 250px;
 }
 .clogos>p {
     color: #fff;
-    
+    font-weight: 600;
+
 }
 .upbar {
     max-height: 100px;
