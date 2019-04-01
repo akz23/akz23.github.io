@@ -147,6 +147,32 @@ button {
     background-color: transparent;
     font-weight: 600;
 }
+@keyframes leftright {
+    0% {
+      transform: translateX(-10px);
+    }
+    50% {
+      transform: translateX(10px);
+    }
+    100% {
+      transform: translateX(-10px);
+    }
+  }
+.sugaroilmaintxt span {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: -4px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    animation-name: leftright;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: .2s;
+    animation-iteration-count: infinite;
+    transition: all .5s ease;
+}
+
 .mainfoot {
     position: absolute;
     margin: auto;
