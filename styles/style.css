@@ -624,6 +624,9 @@ button {
         max-width: 100px;
         height: 550px;
     }
+    .sugaroilmainlinks {
+        display: none;
+    }
     .logo {
         padding-top: 50px;
     }
@@ -685,7 +688,6 @@ button {
         font-size: 2em;
     }
     h3 {
-        color: #fff;
         font-size: 2em;
     }
     .margr {
