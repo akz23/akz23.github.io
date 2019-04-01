@@ -230,7 +230,7 @@ button {
     display: block;
     cursor: default;
     margin-bottom: 60px;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 .bluebr {
@@ -250,7 +250,7 @@ button {
     display: block;
     cursor: default;
     margin-bottom: 30px;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 .worksmainblock {
     max-width: 1240px;
@@ -359,11 +359,12 @@ button {
     box-sizing: border-box;
     color: #fff;
 }
-.footbl>h2 {
+.footbl>h4 {
     text-transform: uppercase;
     font-size: 1.2em;
     margin-bottom: 30px;
     text-decoration: underline;
+    margin-bottom: 50px;
 }
 .footertxt {
     margin-bottom: 20px;
