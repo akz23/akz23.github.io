@@ -675,7 +675,7 @@ button {
         margin: auto;
         text-align: center;
         position: relative;
-        top: 50px;
+        top: 100px;
     }
 
 }
@@ -925,7 +925,7 @@ button {
         margin-bottom: 50px;
     }
     .akzmaintxt {
-        font-size: 1.2em;
+        font-size: 1.6em;
     }
     .btnmain {
         display: block;
