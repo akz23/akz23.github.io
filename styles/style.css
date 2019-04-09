@@ -116,6 +116,9 @@ button {
 .btnmain>a {
     color: #fff;
 }
+.btnmainmenu>a {
+    color: #fff;
+}
 .upcontacts {
         margin: 0px 20px 0px 80px;
         padding: 50px 0px 0px 50px;
