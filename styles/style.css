@@ -239,6 +239,9 @@ button {
     margin-bottom: 60px;
     padding-top: 50px;
     max-width: 334px;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .bluebr {
@@ -250,6 +253,9 @@ button {
     margin-bottom: 60px;
     padding-top: 30px;
     max-width: 417px;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 .whiteviolbr {
     color: #fff;
@@ -261,6 +267,9 @@ button {
     margin-bottom: 30px;
     padding-top: 50px;
     max-width: 284px;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 .redbroil {
     border-bottom: #FF4D01 solid 5px;
@@ -271,6 +280,9 @@ button {
     margin-bottom: 60px;
     padding-top: 50px;
     max-width: 627px;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 .worksmainblock {
     max-width: 1240px;
