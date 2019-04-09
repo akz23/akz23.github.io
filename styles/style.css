@@ -232,6 +232,7 @@ button {
     cursor: default;
     margin-bottom: 60px;
     padding-top: 50px;
+    max-width: 334px;
 }
 
 .bluebr {
@@ -242,6 +243,7 @@ button {
     cursor: default;
     margin-bottom: 60px;
     padding-top: 30px;
+    max-width: 417px;
 }
 .whiteviolbr {
     color: #fff;
@@ -252,6 +254,17 @@ button {
     cursor: default;
     margin-bottom: 30px;
     padding-top: 50px;
+    max-width: 284px;
+}
+.redbroil {
+    border-bottom: #FF4D01 solid 5px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    cursor: default;
+    margin-bottom: 60px;
+    padding-top: 50px;
+    max-width: 627px;
 }
 .worksmainblock {
     max-width: 1240px;
