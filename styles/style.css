@@ -208,7 +208,8 @@ button {
     box-shadow: 0px 6px 5px 3px #fff;
     transition: 0.3s;
     transition-timing-function: ease-in-out;
-    background-color: #0019D5
+    background-color: #FFDA63;
+    color: #000;
 }
 .btnmainmenu {
     background-color: #0876cf;
