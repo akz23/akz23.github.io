@@ -948,6 +948,7 @@ button {
         margin: 0px 0px 50px 0px;
         padding: 20px;
         min-width: 320px;
+        text-align: center;
     }
     .footbl > p {
         color: #fff;
@@ -978,7 +979,8 @@ button {
         font-size: 0.5em;
     }
     h1 {
-        font-size: 1.5em;
+        font-size: 1.2em;
+        text-align: center;
     }
     h2 {
         font-size: 1.5em;
