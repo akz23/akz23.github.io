@@ -888,7 +888,7 @@ button {
     z-index: 11;
    }
    .clogos {
-    margin: 30px;
+    margin: 10px;
     }
     .blstrtxtmob {
         font-weight: 600;
@@ -1026,7 +1026,7 @@ button {
         min-width: 320px;
     }
     .akzmaintxt {
-        font-size: 1.2em;
+        font-size: 0.9em;
         margin-bottom: 30px;
         line-height: 1.5em;
     }
