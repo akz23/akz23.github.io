@@ -1,5 +1,5 @@
-<!-- Top100 (Kraken) Counter -->
-<script>
+//<!-- Top100 (Kraken) Counter -->
+//<script>
     (function (w, d, c) {
     (w[c] = w[c] || []).push(function() {
         var options = {
@@ -22,8 +22,8 @@
     d.addEventListener("DOMContentLoaded", f, false);
 } else { f(); }
 })(window, document, "_top100q");
-</script>
+//</script>
 <noscript>
   <img src="//counter.rambler.ru/top100.cnt?pid=7070948" alt="Топ-100" />
 </noscript>
-<!-- END Top100 (Kraken) Counter -->
+//<!-- END Top100 (Kraken) Counter -->
