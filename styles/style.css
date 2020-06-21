@@ -427,7 +427,9 @@ button {
 .footbl>p>a {
     color: #fff;
 }
-
+.txtunderline {
+    text-decoration: underline;
+}
 .copyrights {
     color: #fff;
     font-size: 0.8em;
@@ -992,8 +994,9 @@ button {
         font-size: 0.5em;
     }
     h1 {
-        font-size: 1.2em;
+        font-size: 1.5em;
         text-align: center;
+        line-height: 1.8em;
     }
     h2 {
         font-size: 1.5em;
@@ -1027,11 +1030,11 @@ button {
         max-width: 414px;
         width: 100%;
         min-width: 320px;
-        height: 650px;
+        height: 600px;
     }
     .maintxt {
         margin: auto;
-        top: 70px;
+        top: 90px;
         display: block;
         max-width: 414px;
         padding: 10px;
@@ -1044,15 +1047,15 @@ button {
         line-height: 1.5em;
     }
     .specmaintxt {
-        font-size: 1em;
+        font-size: 0.95em;
         margin-bottom: 40px;
         max-width: 414px;
         font-weight: 500;
     }
     .sugaroilmaintxt {
-        font-size: 1.1em;
+        font-size: 1em;
         margin-bottom: 25px;
-        text-align: left;
+        text-align: center;
     }
     .worksinfo {
         top: 40px;
@@ -1060,8 +1063,8 @@ button {
     }
     .btnmain {
         display: block;
-        font-size: 1em;
-        width: 250px;
+        font-size: 0.8em;
+        width: 200px;
         font-weight: 500;
     }
     .sectworks {
@@ -1110,7 +1113,7 @@ button {
     .margincenter {
         font-size: 1.3em;
         line-height: 2em;
-        text-align: left;
+        text-align: center;
     }
     .sugarblocks>p {
         font-size: 1.3em;
