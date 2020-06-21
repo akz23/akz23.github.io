@@ -227,7 +227,33 @@
     <div class="copyrights">© 2010-2020, ООО "СтройПромСнаб"</div>
 </footer>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
 <script src="js/smoothscroll.js"></script>
+<script src="js/owl.carousel.min.js"></script>	
+<script>
+$(document).ready(function(){
+$(".owl-carousel").owlCarousel({
+stagePadding: 50,
+items:4,
+loop:true,
+margin:15,
+autoplay:true,
+autoplayTimeout:2300,
+autoplayHoverPause:true,
+nav:true,
+dots:true,
+responsive:{
+0:{
+	items:1
+},
+600:{
+	items:3
+},
+1000:{
+	items:5
+}
+}
+});;
+});
+</script>
 </body>
 </html>
