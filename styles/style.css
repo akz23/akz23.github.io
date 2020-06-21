@@ -287,6 +287,19 @@ button {
     text-transform: uppercase;
     font-weight: bold;
 }
+.redbrworkexamples {
+    border-bottom: #FF4D01 solid 5px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    cursor: default;
+    margin-bottom: 60px;
+    padding-top: 50px;
+    max-width: 390px;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
 .worksmainblock {
     max-width: 1240px;
     margin: auto;
