@@ -151,7 +151,9 @@ button {
     font-weight: 700;
     margin-bottom: 80px;
 }
-
+.minh {
+    min-height: 145px;
+}
 .specmaintxt {
     text-transform: uppercase;
     font-size: 1.6em;
