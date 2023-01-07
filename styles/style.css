@@ -736,7 +736,8 @@ button {
         font-size: 0.65em;
     }
     h1 {
-        font-size: 2.1em;
+        font-size: 1.5em;
+        text-align: center;
     }
     h2 {
         font-size: 2em;
@@ -772,6 +773,7 @@ button {
         margin-bottom: 70px;
         max-width: 600px;
         padding: 0;
+        text-align: center;
     }
     .sugaroilmaintxt {
         font-size: 2em;
@@ -815,10 +817,13 @@ button {
         width: 100%;
         padding: 20px;
         box-sizing: border-box;
+        text-align: center;
+        min-width: 100%;
+        max-width: 100%;
     }
     .margincenter {
-        font-size: 2.3em;
-        line-height: 2.3em;
+        font-size: 1.9em;
+        line-height: 1.5em;
     }
     .sectworks {
         padding-top: 100px;
@@ -837,8 +842,8 @@ button {
         max-width: 90%;
     }
     .sugarblocks>p {
-        font-size: 2.3em;
-        line-height: 2.3em;
+        font-size: 1.9em;
+        line-height: 1.5em;
     }
     .sugarblocks>img {
         width: 100%;
@@ -870,8 +875,8 @@ button {
         max-width: 100%;
     }
     .oilblocksm>p {
-        font-size: 2.3em;
-        line-height: 2.3em;
+        font-size: 1.9em;
+        line-height: 1.5em;
     }
     .upcontacts {
     display: none;
@@ -970,7 +975,7 @@ button {
     .footbl > p {
         color: #fff;
         margin-bottom: 30px;
-        font-size: 1em; 
+        font-size: 1.7em; 
     }
     .footbl > h2 {
         font-size: 1.5em;
