@@ -210,7 +210,7 @@ button {
     box-shadow: 0px 6px 5px 3px #fff;
     transition: 0.3s;
     transition-timing-function: ease-in-out;
-    background-color: #FFDA63;
+    background-color: #e1ed56;
     color: #000;
 }
 .btnmainmenu {
@@ -219,13 +219,12 @@ button {
     padding: 15px 0px 15px 0px;
     margin: 3px 0px 4px 0px;
     text-align: center;
+    border-bottom: 4px solid #0d4f93;
 }
 .btnmainmenu:hover {
-    border-bottom: 4px solid #fff;
-    margin-bottom: -3px;
     transition: 0.3s;
     transition-timing-function: ease-in-out;
-    background-color: #106fd5;
+    background-color: ##3498db;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
