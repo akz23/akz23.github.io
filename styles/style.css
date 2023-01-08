@@ -224,7 +224,7 @@ button {
 .btnmainmenu:hover {
     transition: 0.3s;
     transition-timing-function: ease-in-out;
-    background-color: ##3498db;
+    background-color: #3498db;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
