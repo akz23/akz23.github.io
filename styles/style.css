@@ -398,10 +398,10 @@ button {
 }
 .footsect {
     margin: auto;
-    width: 900px;
+    width: 946px;
 }
 .footbl {
-    margin: 50px;
+    margin: 50px 30px;
     display: inline-block;
     vertical-align: top;
     max-width: 320px;
@@ -1135,3 +1135,20 @@ button {
         width: 900px;
     }*/
 }
+.notmain {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-bottom: 30px;   
+    }
+.notmainbar {
+        background-color: #0d68b2;
+        height: 955px;
+        float: left;
+        max-width: 320px;
+        margin-right: 80px;
+        width: 320px;
+        position: fixed;
+    }
+.upcontactsnotmain {
+    margin: 0px 20px 50px 0px;
+    padding: 50px 0px 50px 50px;
