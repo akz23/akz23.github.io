@@ -271,31 +271,5 @@ responsive:{
 });;
 });
 </script>
-<div class="mobile-nav" id="mobileNav">
-    <a href="index.html">Главная</a>
-    <a href="about.html">О нас</a>
-    <a href="services.html">Услуги</a>
-    <a href="cases.html">Кейсы</a>
-    <a href="contacts.html">Контакты</a>
-</div>
-
-<script>
-    // Бургер-меню
-    const burger = document.querySelector('.burger');
-    const mobileNav = document.getElementById('mobileNav');
-    
-    if (burger && mobileNav) {
-        burger.addEventListener('click', function() {
-            mobileNav.classList.toggle('open');
-        });
-        
-        // Закрываем меню при клике на ссылку
-        mobileNav.querySelectorAll('a').forEach(function(link) {
-            link.addEventListener('click', function() {
-                mobileNav.classList.remove('open');
-            });
-        });
-    }
-</script>
 </body>
 </html>
