@@ -140,6 +140,13 @@ footer { background: #084F8A; padding: 40px 0; border-top: 1px solid #e0e4f0; }
     color: #fff;
 }
 
+.copyrights {
+  color: #fff;
+  font-size: 0.8em;
+  padding: 10px;
+  margin: auto;
+  text-align: right;
+}
 
 
 /*
