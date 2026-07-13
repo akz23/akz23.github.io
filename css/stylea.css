@@ -126,7 +126,7 @@ footer { background: #084F8A; padding: 40px 0; border-top: 1px solid #e0e4f0; }
     color: #fff;
     padding: 10px;
     text-align: center;
-    border-bottom: 4px solid #0d4f93;
+    /*border-bottom: 4px solid #0d4f93;*/
     /*margin: 3px 0px 4px 0px;*/
 }
 .btnmainmenu:hover {
