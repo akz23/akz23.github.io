@@ -120,6 +120,26 @@ footer { background: #084F8A; padding: 40px 0; border-top: 1px solid #e0e4f0; }
     .clients-grid { grid-template-columns: repeat(2, 1fr); }
     .page-header h1 { font-size: 28px; }
 }
+.btnmainmenu {
+    background-color: #0876cf;
+    color: #fff;
+    padding: 15px 0px 15px 0px;
+    margin: 3px 0px 4px 0px;
+    text-align: center;
+    border-bottom: 4px solid #0d4f93;
+}
+.btnmainmenu:hover {
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    background-color: #3498db;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btnmainmenu>a {
+    color: #fff;
+}
+
+
 
 /*
 .logo {
