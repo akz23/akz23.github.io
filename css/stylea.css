@@ -89,7 +89,7 @@ section { padding: 70px 0; }
 .contact-form button:hover { background: #0a3a8a; }
 
 /* === FOOTER === */
-footer { background: #084F8A; padding: 40px 0; border-top: 1px solid #e0e4f0; }
+footer { background: #084F8A; padding: 40px 40px 10px 40px; border-top: 1px solid #e0e4f0; }
 .footer-inner { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 30px; }
 .footer-inner div { flex: 1; min-width: 180px; }
 .footer-inner h4 { font-size: 18px; margin-bottom: 15px; color: #ffffff; }
