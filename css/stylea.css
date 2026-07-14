@@ -32,7 +32,7 @@ nav a:hover, nav a.active { color: #fff; border-bottom: 2px solid #fff; /*paddin
 .hero-dots span.active { background: #fff; }
 
 /* === SECTIONS === */
-section { padding: 70px 0; }
+section { padding: 30px 0; }
 .section-title { font-size: 34px; font-weight: 700; color: #1a237e; text-align: center; margin-bottom: 15px; }
 .section-sub { text-align: center; color: #555; max-width: 700px; margin: 0 auto 50px; font-size: 18px; }
 
