@@ -99,7 +99,7 @@ footer { background: #084F8A; padding: 40px 40px 10px 40px; border-top: 1px soli
 
 /* === RESPONSIVE === */
 @media (max-width: 768px) {
-    nav { display: none; flex-direction: column; width: 100%; background: #fff; padding: 20px 0; gap: 15px; }
+    nav { display: none; flex-direction: column; width: 100%; padding: 20px 0; gap: 15px; }
     nav.open { display: flex; }
     .burger { display: flex; }
     .hero-content h1 { font-size: 30px; }
