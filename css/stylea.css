@@ -14,7 +14,7 @@ nav { display: flex; gap: 30px; }
 nav a { font-size: 16px; font-weight: 500; color: #fff; transition: color 0.3s; }
 nav a:hover, nav a.active { color: #fff; border-bottom: 2px solid #fff; /*padding-bottom: 3px;*/ }
 .burger { display: none; flex-direction: column; gap: 5px; cursor: pointer; }
-.burger span { display: block; width: 28px; height: 3px; background: #1a237e; border-radius: 3px; transition: 0.3s; }
+.burger span { display: block; width: 28px; height: 3px; background: #fff; border-radius: 3px; transition: 0.3s; }
 
 /* === HERO SLIDER === */
 .hero { position: relative; height: 90vh; min-height: 500px; overflow: hidden; }
@@ -101,7 +101,7 @@ footer { background: #084F8A; padding: 40px 40px 10px 40px; border-top: 1px soli
 @media (max-width: 768px) {
     nav { display: none; flex-direction: column; width: 100%; padding: 20px 0; gap: 15px; }
     nav.open { display: flex; }
-    .burger { display: flex; }
+    .burger { display: flex; padding-right: 10px;}
     .hero-content h1 { font-size: 30px; }
     .hero-content p { font-size: 17px; }
     .section-title { font-size: 26px; }
