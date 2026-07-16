@@ -905,7 +905,7 @@ button {
     font-size: 1.3em;
     }
     .upbar {
-    display: block;
+    display: none;
     position: fixed;
     z-index: 11;
    }
@@ -1258,6 +1258,7 @@ nav a:hover, nav a.active { color: fff; border-bottom: 2px solid #fff; padding-b
 
 /* === RESPONSIVE === */
 @media (max-width: 768px) {
+    header { display: block; }
     nav { display: none; flex-direction: column; width: 100%; background: #0d68b2; padding: 20px 0; gap: 15px; }
     nav.open { display: flex; }
     .burger { display: flex; padding-right: 10px;}
