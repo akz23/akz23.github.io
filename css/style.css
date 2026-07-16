@@ -1346,8 +1346,8 @@ nav a:hover, nav a.active { color: #0d47a1; border-bottom: 2px solid #0d47a1; pa
     .burger {
         display: flex !important;
         position: absolute;
-        /* right: 15px;
-        top: 15px; */
+        /* right: 15px;*/
+        top: 15px; 
     }
     
     .mainnav {
