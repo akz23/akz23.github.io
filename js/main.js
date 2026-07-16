@@ -7,6 +7,42 @@ if (burger && nav) {
     });
 }
 
+// berger menu for main
+
+document.addEventListener('DOMContentLoaded', function() {
+    const burger = document.getElementById('burger');
+    const nav = document.getElementById('nav');
+    
+    if (burger && nav) {
+        burger.addEventListener('click', function(e) {
+            e.stopPropagation();
+            this.classList.toggle('active');
+            nav.classList.toggle('open');
+        });
+        
+        // Закрытие при клике вне меню
+        document.addEventListener('click', function(e) {
+            const mainbar = document.querySelector('.mainbar');
+            if (mainbar && !mainbar.contains(e.target)) {
+                burger.classList.remove('active');
+                nav.classList.remove('open');
+            }
+        });
+        
+        // Закрытие при клике на пункт меню
+        nav.querySelectorAll('a').forEach(function(link) {
+            link.addEventListener('click', function() {
+                burger.classList.remove('active');
+                nav.classList.remove('open');
+            });
+        });
+    }
+});
+
+
+
+
+
 // === HERO SLIDER ===
 let currentSlide = 0;
 const slides = document.querySelectorAll('.hero-slide');
