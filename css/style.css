@@ -1258,7 +1258,7 @@ nav a:hover, nav a.active { color: fff; border-bottom: 2px solid #fff; padding-b
 
 /* === RESPONSIVE === */
 /* === RESPONSIVE === */
-@media (min-width: 961px) and (orientation: landscape) {
+@media (min-width: 671px) and (orientation: landscape) {
     header { display: none; }
 }
 @media (max-width: 960px) {
