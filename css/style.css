@@ -1278,3 +1278,125 @@ nav a:hover, nav a.active { color: #0d47a1; border-bottom: 2px solid #0d47a1; pa
     .clients-grid { grid-template-columns: repeat(2, 1fr); }
     .page-header h1 { font-size: 28px; }
 }
+
+
+/* add new style for burger */
+
+/* Стили для бургер-меню - адаптированы под дизайн */
+.burger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    z-index: 1000;
+}
+
+.burger span {
+    display: block;
+    width: 28px;
+    height: 3px;
+    background: #fff;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+/* Анимация превращения в крестик */
+.burger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 6px);
+}
+
+.burger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.burger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -6px);
+}
+
+/* Мобильная версия */
+@media screen and (max-width: 960px) and (orientation: portrait) {
+    .mainbar {
+        visibility: visible !important;
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+        min-height: 60px !important;
+        float: none !important;
+        position: fixed !important;
+        top: 0;
+        left: 0;
+        z-index: 999;
+        margin: 0 !important;
+        padding: 10px 0;
+    }
+    
+    .logo {
+        padding-top: 5px !important;
+        text-align: left !important;
+        padding-left: 20px;
+        margin: 0 !important;
+        font-size: 1.1em !important;
+    }
+    
+    .burger {
+        display: flex !important;
+        position: absolute;
+        right: 15px;
+        top: 15px;
+    }
+    
+    .mainnav {
+        display: none !important;
+        position: absolute !important;
+        top: 100% !important;
+        left: 0 !important;
+        width: 100% !important;
+        background: #0d68b2 !important;
+        padding: 10px 0 !important;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.3) !important;
+        z-index: 1000 !important;
+    }
+    
+    .mainnav.open {
+        display: block !important;
+    }
+    
+    .mainnav ul {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    
+    .mainnav ul li {
+        display: block !important;
+        width: 100% !important;
+    }
+    
+    .btnmainmenu {
+        display: block !important;
+        font-size: 1.1em !important;
+        padding: 15px 20px !important;
+        margin: 2px 0 !important;
+        text-align: left !important;
+        border-bottom: 1px solid rgba(255,255,255,0.1) !important;
+        background: transparent !important;
+        color: #fff !important;
+        transition: background 0.3s ease !important;
+    }
+    
+    .btnmainmenu:hover,
+    .btnmainmenu.active {
+        background: rgba(255,255,255,0.15) !important;
+        border-radius: 0 !important;
+    }
+    
+    .btnmainmenu>a {
+        color: #fff !important;
+        display: block !important;
+        width: 100% !important;
+    }
+}
