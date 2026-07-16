@@ -149,7 +149,7 @@ button {
 .akzmaintxt {
     text-transform: uppercase; 
     letter-spacing: 2px;
-    font-weight: 700;
+    /* font-weight: 700; */
     margin-bottom: 80px;
 }
 .minh {
@@ -525,7 +525,7 @@ button {
         top: 100px;
     }
     .akzmaintxt {
-        font-size: 2em;
+       /* font-size: 2em; */
         margin-bottom: 50px;
     }
     .specmaintxt {
@@ -608,7 +608,7 @@ button {
         font-size: 1em;
     }
     .akzmaintxt {
-        font-size: 1.7em;    
+        /* font-size: 1.7em;   */ 
     }
     .sugaroilmaintxt {
         font-size: 1.1em;
@@ -628,7 +628,7 @@ button {
         padding: 0px 20px 55px 0px;
     }
     .akzmaintxt {
-        font-size: 1.5em;
+       /* font-size: 1.5em; */
         margin-bottom: 40px;
     }
     .worksmainblock {
@@ -703,7 +703,7 @@ button {
         top: 80px;
     }
     .akzmaintxt {
-        font-size: 1.8em;
+        /* font-size: 1.8em; */
         margin-bottom: 50px;
 
     }
@@ -764,7 +764,7 @@ button {
         padding: 10px;
     }
     .akzmaintxt {
-        font-size: 3.2em;
+       /* font-size: 3.2em; */
         margin-bottom: 70px;
         line-height: 1.5em;
     }
@@ -982,7 +982,7 @@ button {
         margin-bottom: 50px;
     }
     .akzmaintxt {
-        font-size: 1.6em;
+        /* font-size: 1.6em; */
     }
     .btnmain {
         display: block;
@@ -1049,7 +1049,7 @@ button {
         min-width: 320px;
     }
     .akzmaintxt {
-        font-size: 0.9em;
+        /* font-size: 0.9em; */
         margin-bottom: 30px;
         line-height: 1.5em;
     }
