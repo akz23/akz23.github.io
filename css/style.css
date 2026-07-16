@@ -1261,7 +1261,7 @@ nav a:hover, nav a.active { color: fff; border-bottom: 2px solid #fff; padding-b
 @media (max-width: 960px) {
     header { display: block; }
     nav { display: none; }
-    .header-inner { display: flex;}
+    .header-inner { display: flex; color: #fff; }
 }
 @media (max-width: 768px) {
     /* header { display: block; } */
