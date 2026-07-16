@@ -726,7 +726,7 @@ button {
         margin: auto;
         text-align: center;
         position: relative;
-        top: 100px;
+        /* top: 100px; */
     }
 
 }
@@ -924,7 +924,7 @@ button {
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
     .upcontactsmob {
-        top: 100px;
+        /* top: 100px; */ 
     }
     .backmain {
         max-width: 600px;
@@ -1027,7 +1027,7 @@ button {
         font-size: 1em;
     }
     .upcontactsmob {
-        top: 50px;
+      /*  top: 50px; */
     }
     .backmain {
         box-shadow: none;
