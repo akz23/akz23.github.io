@@ -1257,7 +1257,7 @@ nav a:hover, nav a.active { color: fff; border-bottom: 2px solid #fff; padding-b
 
 /* === RESPONSIVE === */
 @media (max-width: 768px) {
-    nav { display: none; flex-direction: column; width: 100%; background: #fff; padding: 20px 0; gap: 15px; }
+    nav { display: none; flex-direction: column; width: 100%; background: #0d68b2; padding: 20px 0; gap: 15px; }
     nav.open { display: flex; }
     .burger { display: flex; padding-right: 10px;}
     .hero-content h1 { font-size: 30px; }
