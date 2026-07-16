@@ -73,7 +73,8 @@ button {
     color: #fff;
     text-transform: uppercase;
     position: relative;
-    top: 150px; 
+    top: 150px;
+    display: block;
 }
 .sectname1 {
     color: #000;
