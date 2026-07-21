@@ -738,7 +738,7 @@ button {
         color: #fff;
     }
     h1 {
-        /* font-size: 1.5em; */
+        font-size: 1.5em;     
         text-align: center;
     }
     h2 {
@@ -776,6 +776,7 @@ button {
         max-width: 600px;
         padding: 0;
         text-align: center;
+        margin: 0 auto;
     }
     .sugaroilmaintxt {
         font-size: 2em;
