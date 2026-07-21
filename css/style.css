@@ -1427,9 +1427,12 @@ nav a:hover, nav a.active { color: fff; border-bottom: 2px solid #fff; padding-b
         width: 100% !important;
     }
 
-logo a {
+.logo a:link {
     color: #fff;
     }
-nav a {
+.logo a:visited {
+    color: #fff;
+    }
+nav a:link {
     color: #fff;
     }
