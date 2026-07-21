@@ -1442,3 +1442,9 @@ nav a:link {
 nav a:visited {
     color: #fff;
     }
+logo a:link {
+    color: #fff;
+    }
+logo a:visited {
+    color: #fff;
+    }
