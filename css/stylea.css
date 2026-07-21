@@ -55,7 +55,7 @@ section { padding: 30px 0; }
 .clients-label { text-align: center; font-size: 22px; font-weight: 600; color: #1a237e; margin-bottom: 30px; }
 
 /* === FAQ === */
-.faq-list { max-width: 900px; margin: 0 auto; }
+.faq-list { max-width: 900px; margin: 0 auto; padding: 0px 20px 0px 20px;}
 .faq-item { border-bottom: 1px solid #e0e4f0; padding: 18px 0; }
 .faq-question { font-weight: 600; font-size: 18px; color: #1a237e; cursor: pointer; display: flex; justify-content: space-between; }
 .faq-answer { display: none; padding-top: 10px; color: #444; }
