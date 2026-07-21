@@ -1355,6 +1355,11 @@ nav a:hover, nav a.active { color: fff; border-bottom: 2px solid #fff; padding-b
         font-size: 1.1em !important;
         color: #fff;
     }
+
+        .logo a {
+        font-family: 'Montserrat', sans-serif;
+        color: #fff;
+    }
     
     .burger {
         display: flex !important;
