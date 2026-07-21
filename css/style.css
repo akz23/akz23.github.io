@@ -999,6 +999,7 @@ button {
 @media screen and (max-width: 414px) and (orientation: portrait) {
         .logo > a {
         font-size: 0.5em;
+        color: #fff;
     }
     h1 {
         /* font-size: 1.5em; */
