@@ -1290,6 +1290,7 @@ nav a:hover, nav a.active { color: fff; border-bottom: 2px solid #fff; padding-b
     .clients-grid { grid-template-columns: repeat(2, 1fr); }
     .page-header h1 { font-size: 28px; }
 }
+
 @media (orientation: landscape) {
     header { display: none; }
     .header-inner { display: none;}
@@ -1348,6 +1349,7 @@ nav a:hover, nav a.active { color: fff; border-bottom: 2px solid #fff; padding-b
         z-index: 999;
         margin: 0 !important;
         padding: 10px 0;
+        a:-webkit-any-link { color: #fff;  }
     }
     
     .logo {
@@ -1357,11 +1359,13 @@ nav a:hover, nav a.active { color: fff; border-bottom: 2px solid #fff; padding-b
         margin: 0 !important;
         font-size: 1.1em !important;
         color: #fff;
+        a:-webkit-any-link { color: #fff;  }
     }
 
         .logo > a {
         font-family: 'Montserrat', sans-serif;
         color: #fff;
+        a:-webkit-any-link { color: #fff;  }
     }
     
     .burger {
