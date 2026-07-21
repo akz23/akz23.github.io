@@ -1426,4 +1426,7 @@ nav a:hover, nav a.active { color: fff; border-bottom: 2px solid #fff; padding-b
         display: block !important;
         width: 100% !important;
     }
-}
+
+.logo {
+    color: #000;
+    }
