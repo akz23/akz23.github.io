@@ -1427,6 +1427,9 @@ nav a:hover, nav a.active { color: fff; border-bottom: 2px solid #fff; padding-b
         width: 100% !important;
     }
 
+.logo {
+    color: #fff;
+    }
 .logo a:link {
     color: #fff;
     }
@@ -1434,5 +1437,8 @@ nav a:hover, nav a.active { color: fff; border-bottom: 2px solid #fff; padding-b
     color: #fff;
     }
 nav a:link {
+    color: #fff;
+    }
+nav a:visited {
     color: #fff;
     }
