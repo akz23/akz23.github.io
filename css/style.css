@@ -2,7 +2,7 @@
     
     
     
-body {
+body {ми
         margin: 0;
         font-family: 'Montserrat', sans-serif;
 }
@@ -53,7 +53,7 @@ a:-webkit-any-link {
     background-repeat: no-repeat;
     margin: auto;
     max-width: 1920px;
-    min-width: 960px;
+    /* min-width: 960px; */
     height: 955px;
     background-size: cover;
     background-position: center; 
@@ -232,7 +232,7 @@ button {
 .sectworks {
     padding-top: 70px;
     max-width: 1200px;
-    min-width: 960px;
+    /* min-width: 960px; */
     margin: 0 auto;
 }
 .redbr {
@@ -323,7 +323,7 @@ button {
     background-repeat: no-repeat;
     margin: auto;
     max-width: 1920px;
-    min-width: 960px;
+   /* min-width: 960px; */
 }
 .worksinfo {
     position: relative;
@@ -335,7 +335,7 @@ button {
     background-color: #f5f5f5;
     padding-bottom: 80px;
     max-width: 1920px;
-    min-width: 960px;
+   /* min-width: 960px; */
     margin: 0 auto;
 }
 .sugardescript {
@@ -357,7 +357,7 @@ button {
 .sectoil {
     padding-bottom: 80px;
     max-width: 1200px;
-    min-width: 960px;
+    /* min-width: 960px; */
     margin: 0 auto;
 }
 .oilblock {
@@ -385,7 +385,7 @@ button {
     background-color: #57586e;
     padding-bottom: 80px;
     max-width: 1920px;
-    min-width: 960px;
+    /* min-width: 960px; */
     margin: 0 auto;
 }
 .whiteviolbr>h1 {
@@ -394,7 +394,7 @@ button {
 .footerbc {
     background-color: #084F8A;
     max-width: 1920px;
-    min-width: 960px;
+   /* min-width: 960px; */
     margin: 0 auto;
 }
 .footsect {
@@ -572,7 +572,7 @@ button {
     }
     .worksangle {
         max-width: 1366px;
-        min-width: 768px;
+       /* min-width: 768px;*/
     }
     .sugarplants {
         max-width: 1366px;
@@ -799,7 +799,7 @@ button {
         height: 960px;
         max-width: 960px;
         width: 100%;
-        min-width: 600px;
+        /* min-width: 600px; */
     }
     .mainbar {
         visibility: collapse;
@@ -821,7 +821,7 @@ button {
         padding: 20px;
         box-sizing: border-box;
         text-align: center;
-        min-width: 100%;
+        /* min-width: 100%;*/ 
         max-width: 100%;
     }
     .margincenter {
@@ -830,11 +830,11 @@ button {
     }
     .sectworks {
         padding-top: 100px;
-        min-width: 600px;
+        /* min-width: 600px; */
     }
     .sugarplants {
         max-width: 960px;
-        min-width: 600px;
+     /*   min-width: 600px; */
     }
     .sugarblocks {
         vertical-align: middle;
@@ -853,16 +853,16 @@ button {
     }
     .sectoil {
         max-width: 960px;
-        min-width: 600px;
+        /* min-width: 600px; */
     }
     .ourclients {
         max-width: 960px;
-        min-width: 600px;
+        /* min-width: 600px; */
     }
     .footsect {
         width: 100%;
         max-width: 960px;
-        min-width: 600px;
+       /* min-width: 600px; */
     }
     .bluebr {
         padding-top: 60px;
@@ -887,7 +887,7 @@ button {
     .footerbc {
     max-width: 960px;
     padding: 0;
-    min-width: 768px;
+  /*  min-width: 768px; */
     }
     .footsect {
     margin: auto;
@@ -931,31 +931,31 @@ button {
     }
     .backmain {
         max-width: 600px;
-        min-width: 415px;
+      /*  min-width: 415px; */
     }
     .sectworks {
         max-width: 600px;
-        min-width: 415px;
+       /* min-width: 415px; */
     }
     .sugarplants {
         max-width: 600px;
-        min-width: 415px;
+        /* min-width: 415px; */
     }
     .sectoil {
         max-width: 600px;
-        min-width: 415px;
+       /* min-width: 415px; */
     }
     .ourclients {
         max-width: 600px;
-        min-width: 415px;
+        /* min-width: 415px; */
     }
     .footerbc {
         max-width: 600px;
-        min-width: 415px;
+       /* min-width: 415px; */
     }
     .worksangle {
         max-width: 600px;
-        min-width: 415px;
+       /* min-width: 415px; */
     }
     .clogos {
         padding: 2px;
@@ -965,14 +965,14 @@ button {
         margin: auto;
         width: 100%;
         max-width: 414px;
-        min-width: 320px;
+       /* min-width: 320px; */
     
     }
     .footbl {
         max-width: 414px;
         margin: 0px 0px 50px 0px;
         padding: 20px;
-        min-width: 320px;
+     /*   min-width: 320px; */
         text-align: center;
     }
     .footbl > p {
@@ -1040,7 +1040,7 @@ button {
         background-position: bottom right;
         max-width: 414px;
         width: 100%;
-        min-width: 320px;
+     /*   min-width: 320px; */
         height: 600px;
     }
     .maintxt {
@@ -1050,7 +1050,7 @@ button {
         max-width: 414px;
         padding: 10px;
         box-sizing: border-box;
-        min-width: 320px;
+       /* min-width: 320px; */
     }
     .akzmaintxt {
         /* font-size: 0.9em; */
@@ -1081,7 +1081,7 @@ button {
     .sectworks {
         padding-top: 0px;
         max-width: 414px;
-        min-width: 320px;
+       /* min-width: 320px; */
         margin: 0 auto;
     }
     .worksangle {
@@ -1090,35 +1090,35 @@ button {
         background-repeat: no-repeat;
         margin: auto;
         max-width: 414px;
-        min-width: 320px;
+        /* min-width: 320px; */
     }
 
     .sugarplants {
         background-color: #f5f5f5;
         padding-bottom: 80px;
         max-width: 414px;
-        min-width: 320px;
+       /* min-width: 320px; */
         margin: 0 auto;
     }
 
     .sectoil {
         padding-bottom: 80px;
         max-width: 414px;
-        min-width: 320px;
+        /* min-width: 320px; */
         margin: 0 auto;
     }
     .ourclients {
         background-color: #80809a;
         padding-bottom: 80px;
         max-width: 414px;
-        min-width: 320px;
+       /* min-width: 320px; */
         margin: 0 auto;
     }
 
     .footerbc {
         background-color: #084F8A;
         max-width: 414px;
-        min-width: 320px;
+     /*   min-width: 320px; */
         margin: 0 auto;
     }
     .margincenter {
